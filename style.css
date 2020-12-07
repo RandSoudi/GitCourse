@@ -1,0 +1,189 @@
+body
+{
+ overflow: hidden;   
+ font: inherit;
+
+ 
+
+}
+
+#PageContainer
+{
+    height: 150vh;
+}
+.bd-highlight {
+    background-color:  #f3f2da(245, 237, 237, 0.15);
+    border: 1px solid  #f3f2da(222,222,222,.15);
+}
+
+#MenuContainer
+{
+    min-width:300px;
+    max-width:300px;
+    background-color: #cbbcb1;
+    
+}
+
+#ContentContainer
+{
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#ContentContainer section
+{
+    min-height: 100vh;
+}
+
+
+.MobileMenu
+{
+background-color: transparent !important ;
+
+
+}
+#SectionHome
+{
+    background-image: url("../images/web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+
+#SectionHome > div 
+{
+height:100vh;
+background-color: #f3f2da(22,22,22,.6);
+
+}
+
+#SectionHome .TypedHome
+{
+border-bottom: 2px solid #af6b58;
+font-size:130%;
+padding-bottom : 4px;
+}
+
+.SkillItem div  span{
+
+font-weight:700
+}
+
+
+.SkillItem div div {
+
+  font-weight:700;
+  background-color:#556052;
+  height:10px;
+
+  }
+  
+  .SkillItem div div div {
+
+    font-weight:700;
+    background-color :#af6b58 ;
+  
+    }
+    
+    
+.SectionTitle{
+padding-top:20px;
+font-size: 150%;
+font-weight:700;
+
+}
+
+.SectionTitle::after{
+content:"";
+display:block;
+width:100px;
+height:3px;
+margin-top:10px;
+background-color:#af6b58;
+margin-bottom: 15px;
+}
+.ResumeItems{
+   border-left:5px solid black;
+   padding-left:20px;
+   margin-top:20px;
+
+}
+
+.ResumeItems *{
+position: relative;
+top:-18px;
+
+}
+
+
+.ResumeItems::before{
+content :"";
+width:15px;
+height:17px;
+border-radius:60px;
+background-color: white;
+display:block;
+position: relative;
+left:-29px;
+border :2px solid black;
+
+}
+
+
+
+.AboutItem 
+{
+ margin-top:10px;
+ margin-bottom:10px;
+ display:block;
+ text-align: center;
+ 
+}
+
+
+.border-5{
+border-width:10px;
+border-style: solid;
+
+}
+
+.collapsing{
+position:relative;
+height:0;
+overflow: hidden;
+transition: none;
+
+}
+
+
+.border-5
+{
+    border-width: 10px;
+    border-style: solid;
+}
+
+
+
+
+.btn1{
+  border: none;
+  outline:none;
+  height:50px;
+  width: 100%;
+  background-color: #af6b58;
+  color:white;
+  border-radius:4px;
+  font-weight:bold;
+  
+  
+}
+.btn1:hover{
+  background: white;
+  border:1px solid;
+  color :#af6b58;
+  
+}
+
+
